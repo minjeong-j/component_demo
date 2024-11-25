@@ -1,9 +1,10 @@
 // src/components/Greeting.js
 import React, { Component } from 'react';
 
-// Props 예제 
+
 function Greeting(props) {
-	return <h1>Hello, {props.name}!</h1>;
+    // Props 예제 
+    return <h1>Hello, {props.name}!</h1>;
 }
 
 export default Greeting;
